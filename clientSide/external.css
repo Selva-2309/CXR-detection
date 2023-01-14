@@ -1,0 +1,83 @@
+body{
+    background-color: rgba(11, 1, 1, 0.772);
+    margin:0px;
+    }
+    #container{
+    display: flex;
+    flex-wrap:wrap;
+    }
+    #class{
+    width: 350px;
+    height: 500px;
+    margin-top: 25px;
+    /*margin-left: 470px; */
+    background-color: rgba(104, 65, 165, 0.767);
+    position:relative;
+    top:5vh;
+    left:25vw;
+    opacity: 0.9;
+    border-radius: 16px;
+    border:5px solid;
+    border-left: white;
+    border-right: white;
+    font-family: "Nunito", Helvetica, Arial, sans-serif;
+    color: #f4943b;
+    font-weight: bold;
+    }
+    @media only screen and (min-width: 1024px) {
+    #class{
+    left:35vw;
+    }
+    }
+    @media only screen and (min-width: 1440px) {
+    #class{
+    left:38vw;
+    }
+    }
+    img{
+    position: relative;
+    top:50%;
+    left:0%;
+    padding: 10px;
+    height: 5cm;
+    width: 4cm;
+    margin-left: 15px;
+    }
+    input[type="submit"]{
+    width:160px;
+    position:relative;
+    text-align: center;
+    top:52%;
+    left:13%;
+    }
+    #heading{
+    text-align: center;
+    font-style: italic;
+    padding-top: 10px;
+    font-size: 25px;
+    }
+    #getfile{
+    padding-left: 15px;
+    font-size: 18px;
+    }
+    #output{
+    width: 180px;
+    height: 30px;
+    border: 1px solid black;
+    margin-left: 80px;
+    margin-top: 40px;
+    background-color: white;
+    }
+    #move{
+    margin-left: 50px;
+    }
+    #output{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    border-radius: 5px;
+    }
+    #get{
+    width:200px;
+    height:200px;
+    }
